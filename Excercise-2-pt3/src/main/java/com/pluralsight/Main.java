@@ -25,6 +25,5 @@ public class Main {
         // %.2f in printf makes sure the money is rounded to two decimal places.
         // %n adds a new line at the end.
 
-
     }
 }
