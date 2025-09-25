@@ -5,7 +5,6 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
-
         // Step 2
 
         int numberOfDays = 7; // days in week
