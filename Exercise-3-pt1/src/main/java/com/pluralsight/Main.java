@@ -19,5 +19,6 @@ public class Main {
         System.out.println("The highest Salary is:$" + highestSalary);
 
  // results
+
     }
 }
