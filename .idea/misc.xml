@@ -9,7 +9,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Ex-3-math-application/pom.xml" />
+        <option value="$PROJECT_DIR$/FunDayRecap4Movie/pom.xml" />
         <option value="$PROJECT_DIR$/RecapFunDay4/RecapFunDay4-pt2/pom.xml" />
+        <option value="$PROJECT_DIR$/RecapFunDay4/pom.xml" />
+        <option value="$PROJECT_DIR$/ShoppingList/pom.xml" />
       </set>
     </option>
   </component>

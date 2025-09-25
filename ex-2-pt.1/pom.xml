@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ex-2-pt.1</artifactId>
+    <artifactId>1part1</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
