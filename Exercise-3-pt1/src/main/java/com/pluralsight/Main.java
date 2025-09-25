@@ -8,6 +8,7 @@ public class Main {
         // Salary without dollars
         // Determining whose salary is greater
 
+
         double bobSalary = 40000.00;
         double garySalary = 50000.00;
         double highestSalary = Math.max(bobSalary, garySalary); // Determined salary using mathmax
