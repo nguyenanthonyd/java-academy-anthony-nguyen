@@ -8,11 +8,15 @@ public class Main {
         // variables for Exercise 2 pt3
 
         String item = "apple";
+
         int apples = 3; // amount
+
         double itemPrice = 2.3666666667; // price per apple
+
         double costOfAllApples = itemPrice*(apples); // cost of all 3 apples
 
-        System.out.println(" You bought 3 apples for $" + costOfAllApples); // first example
+        System.out.println("You bought 3 apples for $" + costOfAllApples); // first example
+
         System.out.printf("You bought %d %ss for $%.2f%n", apples, item, costOfAllApples); // revised with chatgpt
 
 
