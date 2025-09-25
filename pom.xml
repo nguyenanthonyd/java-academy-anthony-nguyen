@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>part2</module>
-        <module>ex -3</module>
+        <module>ex-2-pt.3</module>
         <module>Ex-3-math-application</module>
     </modules>
 
