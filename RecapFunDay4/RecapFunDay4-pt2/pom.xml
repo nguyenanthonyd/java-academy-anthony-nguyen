@@ -5,15 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.pluralsight</groupId>
-        <artifactId>ex2workbook1d</artifactId>
+        <artifactId>RecapFunDay4</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>RecapFunDay4</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>RecapFunDay4-pt2</module>
-    </modules>
+    <artifactId>RecapFunDay4-pt2</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
