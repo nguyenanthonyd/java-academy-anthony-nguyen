@@ -15,10 +15,10 @@ public class Main {
 
         System.out.println("The highest salary is:");
         System.out.println("Bob's Salary:$" + bobSalary);
-        System.out.println("Gary's Salary:$"+ garySalary);
+        System.out.println("Gary's Salary:$" + garySalary);
         System.out.println("The highest Salary is:$" + highestSalary);
 
- // results
+        // results
 
 
     }
