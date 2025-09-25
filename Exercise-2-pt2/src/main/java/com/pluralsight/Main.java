@@ -7,6 +7,7 @@ public class Main {
 
         // Step 2
 
+
         int numberOfDays = 7; // days in week
         double priceOfCoffee = 4.99; // without dollar sign
         char favoriteLetter = 'A';
