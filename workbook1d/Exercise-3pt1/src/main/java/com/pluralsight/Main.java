@@ -5,6 +5,7 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
+
         // Salary without dollars
         // Determining whose salary is greater
 
