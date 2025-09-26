@@ -12,7 +12,13 @@ public class Main {
 
 
     double radius = 7.25;
-    double area = Math.PI * radius
+    double area = Math.PI * radius* radius; // can do Math.PI* Math.pow(radius, 2)
+
+        System.out.println("Given radius: " + radius);
+        System.out.println( "Formula : area =  π × r^2");
+        System.out.println( "Computed area (square units): "+ area);
+        System.out.printf("Area (rounded to 2 decimals): %.2f square units%n",area);
+
 
 
 
