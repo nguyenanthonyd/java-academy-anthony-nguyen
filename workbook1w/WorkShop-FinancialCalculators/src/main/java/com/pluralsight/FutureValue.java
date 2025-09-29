@@ -2,7 +2,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 
-public class FutureValue { public static void main(String[] args) {
+public class MortgageCalculator { public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     // WorkShop 1w
     // Calculator 2 - Determines the future value of a one- time deposit assuming compound interest.
