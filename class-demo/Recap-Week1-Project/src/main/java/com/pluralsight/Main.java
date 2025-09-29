@@ -11,9 +11,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter exam score (0-100):");
-        int examScore = sc.nextInt(); // Stores input into a variable
+        int examScore = sc.nextInt(); // Stores input into a variable. Input examscore
 
-        char grade;
+        char grade; // Used char because of letter grade
 
         if (examScore >= 90 && examScore <= 100) {
             grade = 'A';
