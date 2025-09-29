@@ -34,6 +34,7 @@ public class Main {
 
             System.out.println("Your grade: " + grade);
 
+        sc.close();
         }
 
 }
