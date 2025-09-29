@@ -37,5 +37,6 @@ public class MortgageCalculator {
         System.out.printf("Monthly Payment:$%.2f%n", monthlyPayment);
         System.out.printf("Total Interest Paid : $%.2f%n" , totalInterest);
 
+        sc.close();
     }
 }
