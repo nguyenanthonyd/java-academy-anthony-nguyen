@@ -5,10 +5,18 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
-         int i = 1;
-         do {
-             System.out.println("I will be a good developer;");
-             i++;
-         } while (i<=2);
-         }
-    }
+
+
+                // Mini-exercise: 1..10
+                for (int n = 1; n <= 10; n++) {
+                    System.out.printf("%2d. I will be a good developer%n", n);
+                }
+
+                System.out.println();
+
+                // Exercise 2: 81..1
+                for (int d = 81; d >= 1; d--) {
+                    System.out.printf("%d more days left of Year Up Code Academy%n", d);
+                }
+            }
+        }
