@@ -22,7 +22,7 @@ public class Main {
         PowerpuffGirl blossom = new PowerpuffGirl("Blossom", "pink");
         System.out.println(blossom.getHealth());
         blossom.setHealth(20);
-
+//
 
 
 
