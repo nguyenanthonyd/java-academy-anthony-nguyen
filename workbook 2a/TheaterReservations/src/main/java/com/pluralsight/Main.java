@@ -31,7 +31,7 @@ public class Main {
         // Step 5: Confirmation message
         String ticketWord = (tickets == 1) ? "ticket" : "tickets";
         System.out.println(tickets + " "  + ticketWord +
-                        " reserved for " + showDate + " under " + lastName + ", " + firstName);
+                        " reserved for" + showDate + " under " + lastName + ", " + firstName);
 
         sc.close();
 }
