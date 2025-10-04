@@ -167,7 +167,7 @@ private static int readInt(Scanner sc) {
             }
 
 
-            // OPTION 4 SEARCH COLOR AND PRICE
+            // OPTION 4: SEARCH COLOR AND PRICE
             private  static void searchByColor( Scanner scanner) {
                     System.out.println("Color to search:");
                     scanner.nextLine();
@@ -187,7 +187,7 @@ private static int readInt(Scanner sc) {
                 System.out.println(hits == 0 ? "No matches." : "Matches found: " + hits);
             }
 
-            // OPTION 3 : SEARCH BY PRICE RANGE
+            // OPTION 3: SEARCH BY PRICE RANGE
 
             private static  void searchByPriceRange(Scanner scanner)  {
                     System.out.print("Min price: ");
