@@ -9,8 +9,9 @@ public class Vehicle {
     private int odometerReading;
     private float price;
 
+
     // 2.Constructor (to build new vehicles)
-    public vehicle(long vehicleId, String makeModel, String color, int odometerReading, float price) {
+    public Vehicle(long vehicleId, String makeModel, String color, int odometerReading, float price) {
         this.vehicleId = vehicleId;
         this.makeModel = makeModel;
         this.color = color;
@@ -38,10 +39,6 @@ public class Vehicle {
 
     public String getColor() {
         return color;
-    }
-
-    public void setColor(String Color) {
-        this.color = color;
     }
 
     public int getOdometerReading() {
