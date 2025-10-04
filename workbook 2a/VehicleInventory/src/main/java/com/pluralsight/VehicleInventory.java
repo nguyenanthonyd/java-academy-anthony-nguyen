@@ -167,16 +167,16 @@ private static int readInt(Scanner sc) {
             }
 
             private  static void searchByColor( Scanner scanner) {
-                System.out.println("Color to search:");
-                scanner.nextLine();
-                String want = scanner.nextLine().trim();
+                    System.out.println("Color to search:");
+                    scanner.nextLine();
+                    String want = scanner.nextLine().trim();
 
-                int hits = 0;
+                    int hits = 0;
 
-                for (int i = 0; i < vehicleCount; i++) {
-                    if (vehicles[i].getColor().equalsIgnoreCase(want)) {
-                        Vehicle v = vehicles[i];
-                        System.out.printf("%d | %s | %s | %,d | $%.2f%n");
+                    for (int i = 0; i < vehicleCount; i++) {
+                        if (vehicles[i].getColor().equalsIgnoreCase(want)) {
+                            Vehicle v = vehicles[i];
+                            System.out.printf("%d | %s | %s | %,d | $%.2f%n",
                                 v.getVehicleId(), v.getMakeModel(), v.getColor(),
                                 v.getOdometerReading(), v.getPrice());
                         hits++;
@@ -194,14 +194,14 @@ private static int readInt(Scanner sc) {
                     System.out.print("Max price: ");
                     float max =readFloat(scanner);
 
-                    if (min > max) { float t = min; min = t; }
+                    if (min > max) { float t = min; min = max; max = t; }
 
                     int hits = 0;
                     for (int i = 0; i < vehicleCount; i++) {
                         float p = vehicles[i].getPrice();
                         if (p >= min && p <= max) {
                             Vehicle v = vehicles[i];
-                            System.out.printf("%d | %s | %s | %,d | $%.2fn");
+                            System.out.printf("%d | %s | %s | %,d | $%.2f%n",
                                     v.getVehicleId(), v.getMakeModel(), v.getColor(),
                                             v.getOdometerReading(), v.getPrice());
 
@@ -211,7 +211,7 @@ private static int readInt(Scanner sc) {
                     }
                         System.out.println(hits == 0 ? "No matches." : "Matches found:" + hits);
 
-
+                    scanner.close();
                     }
 
                 }
