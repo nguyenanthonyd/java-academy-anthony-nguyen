@@ -129,7 +129,7 @@ private static int readInt(Scanner sc) {
                 System.out.println(hits == 0 ? "No matches." : "Matches found: " + hits);
             }
 
-            // ============ OPTION 5: ADD ============
+            // OPTION 5: ADD VEHICLE
             private static void addVehicle(Scanner scanner) {
                 if (vehicleCount >= MAX) {
                     System.out.println("Lot full! Cannot add more vehicles.");
@@ -166,6 +166,8 @@ private static int readInt(Scanner sc) {
                 System.out.println("Vehicle added!");
             }
 
+
+            // OPTION 4 SEARCH COLOR AND PRICE
             private  static void searchByColor( Scanner scanner) {
                     System.out.println("Color to search:");
                     scanner.nextLine();
