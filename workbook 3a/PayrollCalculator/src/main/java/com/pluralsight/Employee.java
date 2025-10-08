@@ -48,11 +48,16 @@ public class Employee {
     }
 
 
-    public  double getGrossPay() {
-        // return the result of hours * rate
-        return hoursworked * payRate;
-    }
-
+    public double getGrossPay() {
+        double grossPay;
+        if (hoursworked <= 40) {
+            grossPay = hoursworked * payRate;
+        } else {
+            double overtimeHours = hoursworked - 40;
+            grossPay = (40 * payRate) + (overtimeHours * payRate * 1.5);
+        }
+        return grossPay;
+        }
 
 
 
