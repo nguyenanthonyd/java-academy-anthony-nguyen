@@ -9,7 +9,7 @@ public class Main {
             String line;
 
 
-
+/
             while ((line = reader.readLine()) != null) {
                 String[] tokens = line.split("\\|");
                 int id = Integer.parseInt(tokens[0]);
