@@ -1,0 +1,22 @@
+package com.pluralsight;
+import java.lang.reflect.Array;
+import  java.util.ArrayList;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        Transaction t = new Transaction("2025-10-12", "08:30:00", "Coffee", "Starbucks",
+                - 8.50);
+        System.out.println("Description:" + t.getDescription());
+        System.out.println("Amount: $" + t.getAmount());
+
+        ArrayList<Transaction> ledger = new ArrayList<>();
+
+        ledger.add(new Transaction("2025-10-12", "09:20:00", "Energy Drink", "7- Eleven" ,- 4.25);
+        ledger.add(new Transaction("2025-10-12", "12:05:00", "Iced Coffee", "Starbucks", -6.00);
+
+
+    }
+}
+
