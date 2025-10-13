@@ -11,17 +11,21 @@ public class Main {
         System.out.println("Description: " + t.getDescription());
         System.out.println("Amount: $" + t.getAmount());
 
-        ArrayList<Transaction> ledger = new ArrayList<>();
+        ArrayList<Transaction> ledger = new ArrayList<>(); // Loop variable  is called transaction
 
         ledger.add(new Transaction("2025-10-12", "09:20:00", "Energy Drink", "7- Eleven" ,- 4.25));
         ledger.add(new Transaction("2025-10-12", "12:05:00", "Iced Coffee", "Starbucks", - 6.00));
 
+        double total = 0; //  The total variable is outside loop for accumulation
+
         for (Transaction transaction : ledger) {
-            System.out.println(t.getDescription() + ": $" + t.getAmount());
+            System.out.println(transaction.getDescription() + ": $" + transaction.getAmount());
+            total += transaction.getAmount() // total +=
+
         }
 
     }
 }
 
-ArrayList<Transaction> ledger = new ArrayList<>();
- ledger.add(new Transaction("2024-10-12"), "09:20:00" ,"Burger", "Burger King", -6.00_));
+
+
