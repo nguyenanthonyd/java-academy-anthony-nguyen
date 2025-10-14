@@ -1,11 +1,13 @@
 package com.pluralsight;
 import java.lang.reflect.Array;
 import  java.util.ArrayList;
+import java.io*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        LedgerMenu.homeScreen(); // Called my menu hereits
         Transaction t = new Transaction("2025-10-12", "08:30:00", "Coffee", "Starbucks",
                 - 8.50);
         System.out.println("Description: " + t.getDescription());
@@ -22,10 +24,9 @@ public class Main {
             System.out.println(transaction.getDescription() + ": $" + transaction.getAmount());
             total += transaction.getAmount() // total +=
 
+
+
         }
 
     }
 }
-
-
-
