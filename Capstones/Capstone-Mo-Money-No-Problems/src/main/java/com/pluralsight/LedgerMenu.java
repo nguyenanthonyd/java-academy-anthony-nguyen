@@ -24,7 +24,7 @@ public class LedgerMenu {
                 break;
 
             case 'P':
-                System.out.println("Make Payment selected")
+                System.out.println("Make Payment selected");
                 break;
 
             case 'L':
@@ -41,5 +41,5 @@ public class LedgerMenu {
 
         } while (choice != 'x');
 
-
+        scanner.close();
 }
