@@ -39,7 +39,7 @@ public class LedgerMenu {
 
         }
 
-        } while (choice != 'x');
+        } while (choice != 'X');
 
         scanner.close();
 }
