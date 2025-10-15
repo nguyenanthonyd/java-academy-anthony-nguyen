@@ -7,6 +7,8 @@ public class Transaction {
     private String vendor;
     private double amount;
 
+    // --- Getters and Setters ---
+
     public String getDate() {
         return date;
     }
