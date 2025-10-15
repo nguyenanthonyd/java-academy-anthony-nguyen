@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
-public class LedgerMenu {
+public class HomeScreen {
 
     public static void homeScreen() {
 
@@ -14,7 +14,7 @@ public class LedgerMenu {
             System.out.println("\n$$$ Mo Money No Problems Menu $$$");
             System.out.println("D) Add Deposit");
             System.out.println("P) Make Payment (Debit)");
-            System.out.println("L) Ledger");
+            System.out.println("L) Ledger - display the ledger screen");
             System.out.println("X) Exit ");
 
             choice = scanner.nextLine().toUpperCase().charAt(0);
@@ -31,7 +31,8 @@ public class LedgerMenu {
                     break;
 
                 case 'L':
-                    System.out.println("Ledger selected");
+                    System.out.println("Cruisin' to the ledger screen");
+                    // switches to ledger page with different options
                     break;
 
                 case 'X':

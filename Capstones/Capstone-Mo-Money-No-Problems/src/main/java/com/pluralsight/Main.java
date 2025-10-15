@@ -2,10 +2,9 @@ package com.pluralsight;
 
 
 
-
 public class Main {
     public static void main(String[] args) {
-        LedgerMenu.homeScreen(); // Called my menu here
+        HomeScreen.homeScreen(); // Called my menu here
 
 
 
