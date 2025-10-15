@@ -11,7 +11,7 @@ public class LedgerMenu {
         char choice;
 
         do {
-            System.out.println("\n$$$ Mo Money No Problems $$$");
+            System.out.println("\n$$$ Mo Money No Problems Menu $$$");
             System.out.println("D) Add Deposit");
             System.out.println("P) Make Payment (Debit)");
             System.out.println("L) Ledger");

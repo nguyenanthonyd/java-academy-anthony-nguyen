@@ -1,68 +1,85 @@
 package com.pluralsight;
-import java.io.*; // Wildcard for both imports
+// Imported wildcards to streamline imports
+import java.io.*; // For reading and writing files.
+import java.util.*; // For Array and List.
 import java.time.LocalTime;
-import java.util.*;
 import java.time.LocalDate;
+import java.util.List;
 
 public class TransactionFileHelper {
 
 
-
-    private void writeTransaction(String startTransaction) {
+    // Saves a transaction line to file "transactions.csv"
+    private static void writeTransaction(String transactionline) {
        try {
-           FileWriter fileWriter = new FileWriter("transactions.csv");
-           BufferedReader bufWriter = new BufferedWriter(fileWriter);
+           // FileWriter - to open the file
+           FileWriter fileWriter = new FileWriter("transactions.csv",true);
 
-           bufWriter.write(startTransaction + "\n");
-           bufWriter.close();
-       }
+           // BufferedWriter - Makes the writing faster and efficient
+           BufferedWriter writer = new BufferedWriter(fileWriter);
+
+           // Write the transaction line + a new line character
+           writer.write(transactionline);
+           writer.newLine(); // moves next to next line
+
+           // Closes writer
+           writer.close();
+           System.out.println("Successful transaction ya heard!");
 
        } catch (IOException e) {
-            System.out.println("Whoops!Error saving transaction my dude");
-            e.printStackTrace();
+            System.out.println("Yo! Error saving transaction!");
+            e.printStackTrace(); // Prints what went wrong
+    }
     }
 
 
-
+    // This reads all of the transaction from the file and returns them as a list
     public static List<Transaction> readTransactions() {
+
+        // Holds transaction read from the file
         List<Transaction> transactions = new ArrayList<>();
 
         try {
 
-            FileReader fileReader = new FileReader("transactions.csv")
+            // Opens file
+            FileReader fileReader = new FileReader("transactions.csv");
 
+            // Faster reading
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-            String input;
+            String input; // temporary storage for each line as it is read
 
-
+            // Reads until there is no more data (null)
             while((input = bufferedReader.readLine()) != null) {
 
+                // Splits the line into columns where there is a "|"
+                String[] transactionsDetails = input.split("\\|");
 
+                /* Format example
+                date|time|description|vendor|amount
+                2023-04-15|10:13:25|ergonomic keyboard|Amazon|-89.50
+                2023-04-15|11:15:00|Invoice 1001 paid|Joe|1500.00*/
 
-                String[] transactionInfo = input.split("\\|");
+                LocalDate date = LocalDate.parse(transactionsDetails[0]); // index[0] -> Converts   String to LocalDate
+                LocalTime time = LocalTime.parse(transactionsDetails[1]); // index[1] -> Converts  String to LocalTime
+                String description = transactionsDetails[2]; // index[2]
+                String vendor = transactionsDetails[3]; // index[3]
+                Double amount = Double.parseDouble(transactionsDetails[4]); // index[4] -> Converts String to double
 
-
-                LocalDate date = LocalDate.parse(transactionInfo[0]); // index[0] => convert/parse from String to LocalDate
-                LocalTime time = LocalTime.parse(transactionInfo[1]); // index[1] => convert/parse from String to LocalTime
-                String description = transactionInfo[2]; // index[2] => no conversion needed
-                String vendor = transactionInfo[3]; // index[3] => no conversion needed
-                double amount = Float.parseFloat(transactionInfo[4]); // index[4] => convert/parse from String to float
-
-                // Create Transaction instance with all information
+                // Create Transaction object with all of the data
                 Transaction transaction = new Transaction(date, time, description, vendor, amount);
 
-                // Add transaction to the transactionList
+                // Add transaction to the list of transactions
                 transactions.add(transaction);
             }
 
-            // close the stream and release the resources
+            // Close
             bufferedReader.close();
 
         }
 
         catch(IOException e) {
-            // display stack trace if there was an error
+            System.out.println("Error reading this playa!");
             e.printStackTrace();
         }
 
