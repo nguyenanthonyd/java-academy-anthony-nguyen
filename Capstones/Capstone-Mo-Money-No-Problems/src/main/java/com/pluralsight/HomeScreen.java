@@ -19,8 +19,13 @@ public class HomeScreen {
             System.out.println("P) Make Payment (Debit)");
             System.out.println("L) Ledger - display the ledger screen");
             System.out.println("X) Exit ");
+            String line = scanner.nextLine();
+            if (line.isEmpty()) {
+                choice = ' ';
+            } else {
+                choice = scanner.nextLine().toUpperCase().charAt(0);
+            }
 
-            choice = scanner.nextLine().toUpperCase().charAt(0);
             // Chain of method that reads user input from the keyboard
             // Converts to uppercase and takes the first character
 

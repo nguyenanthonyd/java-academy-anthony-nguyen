@@ -21,8 +21,7 @@ public class ReportScreen {
             System.out.println("2) Previous Month");
             System.out.println("3) Year to Date");
             System.out.println("4) Previous Year");
-            System.out.println("5) Search by Vendor - prompt the use for the vendor name and display all entries for that " +
-                    "vendor");
+            System.out.println("5) Search by Vendor - prompt the use for the vendor name and display all it's entries");
             System.out.println("0) Back - Go back to Ledger page");
             System.out.println("===$$$ Pick yo poison tell me watcha doin' $$$===");
             choice = scanner.nextLine().toUpperCase().charAt(0);
