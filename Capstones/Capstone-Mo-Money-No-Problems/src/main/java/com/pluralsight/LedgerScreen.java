@@ -50,7 +50,7 @@ public class LedgerScreen {
                 break;
 
                 default:
-                System.out.println("Oh snap, invalid choice! Try again!");
+                System.out.println("Oh snap, invalid choice! Try that again playa!");
 
         }
 
