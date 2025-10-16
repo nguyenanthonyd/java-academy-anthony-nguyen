@@ -12,7 +12,6 @@ public class Main {
         }
     }
 
-
 // Application Requirements
 //Your application must include several screens with the listed features in order to
 //be considered complete:

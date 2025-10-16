@@ -10,7 +10,7 @@ public class TransactionFileHelper {
 
 
     // Saves a transaction line to file "transactions.csv"
-    private static void writeTransaction(String transactionline) {
+    public void writeTransaction(String transactionline) {
        try {
            // FileWriter - to open the file
            FileWriter fileWriter = new FileWriter("transactions.csv",true);
@@ -29,7 +29,7 @@ public class TransactionFileHelper {
        } catch (IOException e) {
             System.out.println("Yo! Error saving transaction!");
             e.printStackTrace(); // Prints what went wrong
-    }
+        }
     }
 
 
