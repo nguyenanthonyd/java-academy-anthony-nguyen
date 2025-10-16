@@ -7,15 +7,14 @@ public class ReportScreen {
 
 
         // Shows Report Screens and user choices
-    public static void reportScreen() {
+    public static void reportScreen(ArrayList<Transaction> transactions) {
 
         ReportScreen reportScreen = new ReportScreen();
         Scanner scanner = new Scanner(System.in);
 
-        char choice;
+        char choice = ' ';
 
         do {
-
             System.out.println("\n===$$$ REPORT MENU $$$===");
             System.out.println("1) Month To Date");
             System.out.println("2) Previous Month");
@@ -24,7 +23,14 @@ public class ReportScreen {
             System.out.println("5) Search by Vendor - prompt the use for the vendor name and display all it's entries");
             System.out.println("0) Back - Go back to Ledger page");
             System.out.println("===$$$ Pick yo poison tell me watcha doin' $$$===");
-            choice = scanner.nextLine().toUpperCase().charAt(0);
+
+            String line = scanner.nextLine().trim();
+            if (line.isEmpty()) {
+                System.out.println("No input detected yo. Choose a number from the menu homie/homette");
+                continue;
+            }
+
+            choice = line.charAt(0); // digits don't need uppercase like other screens
 
                 switch (choice) {
 
@@ -50,6 +56,7 @@ public class ReportScreen {
                         System.out.println("Oh snap, invalid choice! Try that again playa!");
                         break;
                 }
+
             } while (choice != '0');
         }
     }

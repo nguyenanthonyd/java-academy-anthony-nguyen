@@ -11,7 +11,7 @@ public class HomeScreen {
         // Run the homeScreen in a do- while loop until the user exits the menu.
         TransactionFileHelper transactionFileHelper = new TransactionFileHelper();
         Scanner scanner = new Scanner(System.in);
-        char choice;
+        char choice = ' ';
 
         do {
             System.out.println("\n===$$$ MO' MONEY NO PROBLEMS MENU $$$===");
@@ -19,17 +19,18 @@ public class HomeScreen {
             System.out.println("P) Make Payment (Debit)");
             System.out.println("L) Ledger - display the ledger screen");
             System.out.println("X) Exit ");
-            String line = scanner.nextLine();
-            if (line.isEmpty()) {
-                choice = ' ';
-            } else {
-                choice = scanner.nextLine().toUpperCase().charAt(0);
-            }
 
+            String line = scanner.nextLine().trim();
+            if (line.isEmpty()) {
+                System.out.println("No input detected yo. Choose a letter from the menu homie/homette");
+                continue;
+            }
+            choice = Character.toUpperCase(line.charAt(0));
             // Chain of method that reads user input from the keyboard
             // Converts to uppercase and takes the first character
 
             switch (choice) {
+
                 case 'D':
                     System.out.println("Add Deposit selected");
                     LocalDate date = LocalDate.now();
@@ -77,6 +78,6 @@ public class HomeScreen {
 
         } while (choice != 'X');
 
-        scanner.close();
+
     }
 }

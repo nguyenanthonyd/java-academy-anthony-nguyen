@@ -6,48 +6,54 @@ import java.util.ArrayList;
 public class LedgerScreen {
 
     public static void ledgerScreen() {
-
+        ArrayList<Transaction> transactionList = new ArrayList<>(TransactionFileHelper.readTransactions());
 
         Scanner scanner = new Scanner(System.in);
-        char choice;
+        char choice = ' ';
 
         do {
             System.out.println("\n===$$$ LEDGER MENU $$$===");
             System.out.println("A) All - Displays all entries");
             System.out.println("D) Deposits - Displays only the entries that are deposits into the account");
             System.out.println("P) Payments - Display only the negative entries (or payments)");
-            System.out.println("R) Reports - A new screen that allows the user to run pre-defined\n" +
-                    "reports or to run a custom search ");
+            System.out.println("R) Reports - A new screen that allows the user to run pre-defined reports");
             System.out.println("H) Home - Go back to the Home Screen");
-            System.out.println("X) Exit - Close the application");
-            System.out.println("===$$$ Pick yo poison tell me watcha doin': $$$===");
-            String line = scanner.nextLine();
+            System.out.println("===$$$ Pick yo poison tell me watcha doin' $$$===");
+
+            String line = scanner.nextLine().trim();
             if (line.isEmpty()) {
-                choice = ' ';
-            } else {
-                choice = scanner.nextLine().toUpperCase().charAt(0);
+                System.out.println("No input detected — please type a letter from the menu.");
+                continue; // goes back to start of the loop
             }
+                choice = Character.toUpperCase(line.charAt(0));
+
             // Chain of method that reads user input from the keyboard,
             // Converts to uppercase and takes the first character.
 
             switch (choice) {
                 case 'A':
                     System.out.println("All - Display all entries");
+                    ArrayList<Transaction> allTransactions = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    displayAllTransactions(allTransactions);
                     break;
 
                 case 'D':
                     System.out.println("Deposits - Displays only the entries that are deposits into the account");
+                    ArrayList<Transaction> depositList = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    displayAllDeposits(depositList);
                     break;
 
                 case 'P':
                     System.out.println("Payments - Display only negative entries (or payments)");
+                    ArrayList<Transaction> paymentList = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    displayAllPayments(paymentList);
                     // switches to ledger page with different options
                     break;
 
                 case 'R':
-                    System.out.println("Reports - A new screen that allows the user to run pre-defined reports or to run " +
-                            "a custom search");
-                    ReportScreen.reportScreen();
+                    System.out.println("Reports - A new screen that allows the user to run pre-defined reports");
+                    ArrayList<Transaction> reportList = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    ReportScreen.reportScreen(reportList);// refresh
                     break;
 
                 case 'H':
@@ -56,7 +62,7 @@ public class LedgerScreen {
                     break;
 
                 case 'X':
-                    System.out.println("Exit- Let's get outta here!");
+                    System.out.println("Exit- Let's bounce!");
                     // Exits
                     break;
 
@@ -66,12 +72,13 @@ public class LedgerScreen {
 
             }
 
-        } while (choice != 'X' && choice != 'H');
+        } while (choice != 'H');
 
 
     }
 
-    public void displayAllTransactions(ArrayList<Transaction> transactionList) {
+    // Helper Methods
+    public static void displayAllTransactions(ArrayList<Transaction> transactionList) {
         System.out.println("\n===$$$ FULL TRANSACTION LIST (Most Recent First) $$$===");
 
         for (var i = transactionList.size() - 1; i >= 0; i--) {
@@ -79,7 +86,7 @@ public class LedgerScreen {
         }
     }
 
-    public void displayAllDeposits(ArrayList<Transaction> transactionList) {
+    public static void displayAllDeposits(ArrayList<Transaction> transactionList) {
         System.out.println("\n\n=== LEDGER DEPOSIT LIST (Most Recent First) ===");
 
         for (var i = transactionList.size() - 1; i >= 0; i--) {
@@ -89,7 +96,7 @@ public class LedgerScreen {
         }
     }
 
-    public void displayAllPayments(ArrayList<Transaction> transactionList) {
+    public static void displayAllPayments(ArrayList<Transaction> transactionList) {
         System.out.println("\n\n=== LEDGER PAYMENT LIST (Most Recent First) ===");
 
         for (var i = transactionList.size() - 1; i >= 0; i--) {
