@@ -14,7 +14,7 @@ public class HomeScreen {
         char choice;
 
         do {
-            System.out.println("\n===$$$ Mo' Money No Problems Menu $$$===");
+            System.out.println("\n===$$$ MO' MONEY NO PROBLEMS MENU $$$===");
             System.out.println("D) Add Deposit");
             System.out.println("P) Make Payment (Debit)");
             System.out.println("L) Ledger - display the ledger screen");

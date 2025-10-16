@@ -12,7 +12,7 @@ public class LedgerScreen {
         char choice;
 
         do {
-        System.out.println("\n===$$$ Ledger Menu $$$===");
+        System.out.println("\n===$$$ LEDGER MENU $$$===");
         System.out.println("A) All - Displays all entries");
         System.out.println("D) Deposits - Displays only the entries that are deposits into the account");
         System.out.println("P) Payments - Display only the negative entries (or payments)");
@@ -42,6 +42,7 @@ public class LedgerScreen {
             case 'R':
                 System.out.println("Reports - A new screen that allows the user to run pre-defined reports or to run " +
                                     "a custom search");
+                ReportScreen.reportScreen();
                 break;
 
             case 'H':
@@ -49,9 +50,15 @@ public class LedgerScreen {
                 // Goes back to home screen
                 break;
 
+            case 'X':
+                System.out.println("Exit- Let's get outta here!");
+                // Exits
+                break;
+
                 default:
                 System.out.println("Oh snap, invalid choice! Try that again playa!");
 
+                    scanner.close();
         }
 
     } while (choice != 'X' && choice !='H');
