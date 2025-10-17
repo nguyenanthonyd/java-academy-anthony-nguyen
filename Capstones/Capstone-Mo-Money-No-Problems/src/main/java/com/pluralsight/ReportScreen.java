@@ -2,18 +2,19 @@ package com.pluralsight;
 
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.time.LocalDate;
 
 public class ReportScreen {
 
 
-        // Shows Report Screens and user choices
-    public static void reportScreen(ArrayList<Transaction> transactions) {
+    // Shows Report Screens and user choices
+    public static void reportScreen() {
 
-        ReportScreen reportScreen = new ReportScreen();
         Scanner scanner = new Scanner(System.in);
-
         char choice = ' ';
 
+        TransactionFileHelper helper = new TransactionFileHelper();
+        ArrayList<Transaction> transactions = helper.readAllTransactions();
         do {
             System.out.println("\n===$$$ REPORT MENU $$$===");
             System.out.println("1) Month To Date");
@@ -32,31 +33,76 @@ public class ReportScreen {
 
             choice = line.charAt(0); // digits don't need uppercase like other screens
 
-                switch (choice) {
+            switch (choice) {
 
-                    case '1':
-                        System.out.println("Display all transactions in the current month");
-                        break;
-                    case '2':
-                        System.out.println("Display all transactions in the previous month");
-                        break;
-                    case '3':
-                        System.out.println("Display all transactions in the current year");
-                        break;
-                    case '4':
-                        System.out.println("Display all transactions in the previous year");
-                        break;
-                    case '5':
-                        System.out.println("Search by vendor and show matching transactions");
-                        break;
-                    case '0':
-                        System.out.println("Return to the Ledger Screen");
-                        return;
-                    default:
-                        System.out.println("Oh snap, invalid choice! Try that again playa!");
-                        break;
-                }
+                case '1':
+                    System.out.println("Display all transactions in the current month");
+                    showMonthToDate(transactions);
+                    break;
+                case '2':
+                    System.out.println("Display all transactions in the previous month");
+                    showPreviousMonth(transactions);
+                    break;
+                case '3':
+                    System.out.println("Display all transactions in the current year");
+                    break;
+                case '4':
+                    System.out.println("Display all transactions in the previous year");
+                    break;
+                case '5':
+                    System.out.println("Search by vendor and show matching transactions");
+                    break;
+                case '0':
+                    System.out.println("Return to the Ledger Screen");
+                    return;
+                default:
+                    System.out.println("Oh snap, invalid choice! Try that again playa!");
+                    break;
+            }
 
-            } while (choice != '0');
+        } while (choice != '0');
+    }
+
+    // Helper Methods
+    private static void showMonthToDate(ArrayList<Transaction> list) {
+        LocalDate today = LocalDate.now();
+        System.out.println("\nMonth to Date Transactions:");
+        for (Transaction t : list) {
+            if (t.getDate().getMonth() == today.getMonth() &&
+                    t.getDate().getYear() == today.getYear()) {
+                System.out.println(t);
+            }
         }
     }
+
+    private static void showPreviousMonth(ArrayList<Transaction> list) {
+        LocalDate today = LocalDate.now();
+        LocalDate lastMonth = today.minusMonths(1);
+        System.out.println("\nPrevious Month Transactions:");
+        for (Transaction t : list) {
+            if (t.getDate().getMonth() == lastMonth.getMonth() &&
+                    t.getDate().getYear() == lastMonth.getYear()) {
+                System.out.println(t);
+            }
+        }
+    }
+
+    private static void searchByVendor(ArrayList<Transaction> list, Scanner scanner) {
+        System.out.print("\nEnter vendor name to search: ");
+        String vendor = scanner.nextLine().trim();
+        boolean found = false;
+
+        for (Transaction t : list) {
+            if (t.getVendor().equalsIgnoreCase(vendor)) {
+                System.out.println(t);
+                found = true;
+            }
+        }
+
+        if (!found) {
+            System.out.println("No transactions found for vendor G!: " + vendor);
+        }
+    }
+}
+
+

@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class LedgerScreen {
 
     public static void ledgerScreen() {
-        ArrayList<Transaction> transactionList = new ArrayList<>(TransactionFileHelper.readTransactions());
-
+        TransactionFileHelper helper = new TransactionFileHelper();
+        ArrayList<Transaction> transactionList = helper.readAllTransactions();
         Scanner scanner = new Scanner(System.in);
         char choice = ' ';
 
@@ -33,27 +33,30 @@ public class LedgerScreen {
             switch (choice) {
                 case 'A':
                     System.out.println("All - Display all entries");
-                    ArrayList<Transaction> allTransactions = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    TransactionFileHelper helperA = new TransactionFileHelper();
+                    ArrayList<Transaction> allTransactions = helperA.readAllTransactions();
                     displayAllTransactions(allTransactions);
                     break;
 
                 case 'D':
                     System.out.println("Deposits - Displays only the entries that are deposits into the account");
-                    ArrayList<Transaction> depositList = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    TransactionFileHelper helperD = new TransactionFileHelper();
+                    ArrayList<Transaction> depositList = helperD.readAllTransactions();
                     displayAllDeposits(depositList);
                     break;
 
                 case 'P':
                     System.out.println("Payments - Display only negative entries (or payments)");
-                    ArrayList<Transaction> paymentList = new ArrayList<>(TransactionFileHelper.readTransactions());
+                    TransactionFileHelper helperP = new TransactionFileHelper();
+                    ArrayList<Transaction> paymentList = helperP.readAllTransactions();
                     displayAllPayments(paymentList);
-                    // switches to ledger page with different options
                     break;
+                    // switches to ledger page with different options
+                    
 
                 case 'R':
                     System.out.println("Reports - A new screen that allows the user to run pre-defined reports");
-                    ArrayList<Transaction> reportList = new ArrayList<>(TransactionFileHelper.readTransactions());
-                    ReportScreen.reportScreen(reportList);// refresh
+                    ReportScreen.reportScreen();// refresh
                     break;
 
                 case 'H':
