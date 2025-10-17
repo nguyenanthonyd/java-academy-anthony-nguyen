@@ -22,7 +22,7 @@ public class HomeScreen {
 
             String line = scanner.nextLine().trim();
             if (line.isEmpty()) {
-                System.out.println("No input detected yo. Choose a letter from the menu homie/homette");
+                System.out.println("No input detected yo. Choose a letter from the menu homie/homette.");
                 continue;
             }
             choice = Character.toUpperCase(line.charAt(0));

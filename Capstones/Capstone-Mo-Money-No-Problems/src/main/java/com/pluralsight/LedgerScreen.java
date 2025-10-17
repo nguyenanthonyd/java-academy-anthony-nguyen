@@ -22,7 +22,7 @@ public class LedgerScreen {
 
             String line = scanner.nextLine().trim();
             if (line.isEmpty()) {
-                System.out.println("No input detected — please type a letter from the menu.");
+                System.out.println("No input detected dawg! — Choose a lletter from the menu.");
                 continue; // goes back to start of the loop
             }
                 choice = Character.toUpperCase(line.charAt(0));
@@ -33,23 +33,17 @@ public class LedgerScreen {
             switch (choice) {
                 case 'A':
                     System.out.println("All - Display all entries");
-                    TransactionFileHelper helperA = new TransactionFileHelper();
-                    ArrayList<Transaction> allTransactions = helperA.readAllTransactions();
-                    displayAllTransactions(allTransactions);
+                    displayAllTransactions(transactionList);
                     break;
 
                 case 'D':
                     System.out.println("Deposits - Displays only the entries that are deposits into the account");
-                    TransactionFileHelper helperD = new TransactionFileHelper();
-                    ArrayList<Transaction> depositList = helperD.readAllTransactions();
-                    displayAllDeposits(depositList);
+                    displayAllDeposits(transactionList);
                     break;
 
                 case 'P':
                     System.out.println("Payments - Display only negative entries (or payments)");
-                    TransactionFileHelper helperP = new TransactionFileHelper();
-                    ArrayList<Transaction> paymentList = helperP.readAllTransactions();
-                    displayAllPayments(paymentList);
+                    displayAllPayments(transactionList);
                     break;
                     // switches to ledger page with different options
                     
@@ -57,6 +51,8 @@ public class LedgerScreen {
                 case 'R':
                     System.out.println("Reports - A new screen that allows the user to run pre-defined reports");
                     ReportScreen.reportScreen();// refresh
+                    // refresh list in case new transactions were added elsewhere
+                    transactionList = helper.readAllTransactions();
                     break;
 
                 case 'H':

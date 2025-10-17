@@ -4,7 +4,7 @@ import java.io.*; // For reading and writing files.
 import java.util.*; // For Array and List.
 import java.time.LocalTime;
 import java.time.LocalDate;
-import java.util.List;
+
 
 
 public class TransactionFileHelper {
@@ -22,7 +22,7 @@ public class TransactionFileHelper {
             writer2.close();
             writer.close();
 
-            System.out.println("Transaction saved to file!");
+            System.out.println("Transaction saved to file! Yee!");
 
         } catch (IOException e) {
             System.out.println("Oops! Could not write to file: " + e.getMessage());
