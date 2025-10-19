@@ -27,10 +27,12 @@ public class Main {
 
                 Employee employee = new Employee(id, name, hours, rate);
                 System.out.printf("Employee: %s | Gross Pay: $%.2f\n", employee.getName(), employee.getGrossPay());
-                writer.printf("%d|%s|%.2f%n",
+                writer.printf("%d|%s|%.2f%n",employee.getEmployeeId(), employee.getName(), employee.getHoursworked(),
+                              employee.getGrossPay());
             }
 
             reader.close();
+            writer.close();
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
         }
