@@ -1,26 +1,33 @@
 package com.pluralsight;
 import  java.io.*;
+import  java.util.*;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the name of the file employee file to process:");
+        String payrollFile = scanner.nextLine();
+
+        PrintWriter writer = new PrintWriter(new FileWriter(payrollFile));
+        writer.println("id|name|gross pay"); // header line
+
         try {
             BufferedReader reader = new BufferedReader(new FileReader("employees.csv"));
             String line;
 
 
-/
+
             while ((line = reader.readLine()) != null) {
-                String[] tokens = line.split("\\|");
-                int id = Integer.parseInt(tokens[0]);
-                String name = tokens[1];
-                double hours = Double.parseDouble(tokens[2]);
-                double rate = Double.parseDouble(tokens[3]);
+                String[] index = line.split("\\|");
+                int id = Integer.parseInt(index[0]);
+                String name = index[1];
+                double hours = Double.parseDouble(index[2]);
+                double rate = Double.parseDouble(index[3]);
 
-                Employee emp = new Employee(id, name, hours, rate);
-                System.out.printf("Employee: %s | Gross Pay: $%.2f\n", emp.getName(), emp.getGrossPay());
-
-
+                Employee employee = new Employee(id, name, hours, rate);
+                System.out.printf("Employee: %s | Gross Pay: $%.2f\n", employee.getName(), employee.getGrossPay());
+                writer.printf("%d|%s|%.2f%n",
             }
 
             reader.close();
