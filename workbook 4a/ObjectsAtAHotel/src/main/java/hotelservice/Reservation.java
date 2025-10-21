@@ -2,10 +2,9 @@ package hotelservice;
 
 public class Reservation {
     private String roomType;
-    private double price;
     private int numberOfNights;
     private boolean isWeekend;
-    private int reservationTotal;
+
 
     public String getRoomType() {
         return roomType;
@@ -13,14 +12,6 @@ public class Reservation {
 
     public void setRoomType(String roomType) {
         this.roomType = roomType;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public int getNumberOfNights() {
@@ -39,14 +30,17 @@ public class Reservation {
         isWeekend = weekend;
     }
 
-    public int getReservationTotal() {
-        return reservationTotal;
+    public Reservation(String roomType, double price, int numberOfNights, boolean isWeekend) {
+        this.roomType = roomType;
+        this.numberOfNights = numberOfNights;
+        this.isWeekend = isWeekend;
+
     }
 
-    public void setReservationTotal(int reservationTotal) {
-        this.reservationTotal = reservationTotal;
-    }
+    private double getPrice() {
+        double basePrice = 0;
 
-
+        if(roomType.equalsIgnoreCase())
 
 }
+
