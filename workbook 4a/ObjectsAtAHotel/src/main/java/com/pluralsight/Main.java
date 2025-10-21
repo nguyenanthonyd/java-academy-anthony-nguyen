@@ -8,5 +8,7 @@ public class Main {
         Guest guest = new Guest("Anthony");
         FrontDesk frontDesk = new FrontDesk();
         frontDesk.checkInGuest(guest);
+
     }
+
     }
