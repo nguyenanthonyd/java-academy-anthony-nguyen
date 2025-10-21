@@ -6,6 +6,10 @@ public class Guest {
     public  void requestTowels() {
         System.out.println("Call front desk");
     }
+        public Guest(String name) {
+        this.name = name;
+
+    }
 
     public int getAssignRoom() {
         return assignRoom;
