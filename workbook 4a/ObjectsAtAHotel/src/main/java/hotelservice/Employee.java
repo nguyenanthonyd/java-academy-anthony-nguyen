@@ -4,6 +4,18 @@ public class Employee {
     private int employeeId;
     private String name;
     private String department;
+    private double payRate;
+    private double hoursWorked;
+    private double startTime = 0; // last punch-in; 0 means not "punched in"
+
+    public Employee(int employeeId, String name, String department, double payRate, double hoursWorked) {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.department = department;
+        this.payRate = payRate;
+        this.hoursWorked = hoursWorked;
+    }
+
 
     public int getEmployeeId() {
         return employeeId;
@@ -37,36 +49,64 @@ public class Employee {
         this.payRate = payRate;
     }
 
-    public int getHoursWorked() {
+    public double getHoursWorked() {
         return hoursWorked;
     }
 
-    public void setHoursWorked(int hoursWorked) {
-        this.hoursWorked = hoursWorked;
-    }
-    //constructor
-    public Employee(int employeeId, String name, String department, double payRate, int hoursWorked) {
-        this.employeeId = employeeId;
-        this.name = name;
-        this.department = department;
-        this.payRate = payRate;
+    public void setHoursWorked(double hoursWorked) {
         this.hoursWorked = hoursWorked;
     }
 
-    private double payRate;
-    private int hoursWorked;
+    // overloaded punch in
+    public void punchIn(double time) {
+        if (startTime !=0) {
+            System.out.println(name + "already punched in.");
+            return;
+        }
+        startTime = time;
+        System.out.println(name + "punched in at" + time);
 
-    public int getRegularHours() {
-        return (hoursWorked > 40) ? 40 : hoursWorked;
     }
-    public int getOvertimeHours() {
-        return (hoursWorked > 40) ? (hoursWorked - 40) : 0;
+    public void punchOut(double time) {
+        if (startTime == 0) {
+            System.out.println(name + "hasn't punched in.");
+            return;
+        }
+    double workedHours = time - startTime;
+        if(workedHours < 0) {
+            System.out.println("Invalid time. Punch out cannot be earlier than punch in.");
+            return;
+        }
+
+        hoursWorked += workedHours;
+        startTime = 0;
+        System.out.println(name + "punched out at" + time + "(worked" + workedHours + "hours)");
+    }
+
+    // derived getters
+    public double getRegularHours() {
+        return  Math.min(hoursWorked, 40.0);
+    }
+
+    public double getOvertimeHours() {
+        return  Math.max(hoursWorked - 40.0, 0.0);
     }
 
     public double getTotalPay() {
         double regularPay = getRegularHours() * payRate;
         double overtimePay = getOvertimeHours() * payRate * 1.5;
         return regularPay + overtimePay;
+    }
+    public void showSummary() {
+        System.out.println("\n--- Employee Summary ---");
+        System.out.println("Employee: " + name);
+        System.out.println("Department: " + department);
+        System.out.println("Total hours: " + hoursWorked);
+        System.out.println("Regular hours: " + getRegularHours());
+        System.out.println("Overtime hours: " + getOvertimeHours());
+        System.out.printf("Total pay: $%.2f%n", getTotalPay());
+        System.out.println("-------------------------\n");
 
     }
+
 }

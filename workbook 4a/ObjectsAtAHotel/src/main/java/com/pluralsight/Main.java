@@ -12,7 +12,10 @@ public class Main {
 
                 Room r1 = new Room(2, 139.99, false, false);
                 System.out.println(r1.isAvailable());
-
+                r1.checkIn();
+                r1.checkOut();
+                r1.cleanRoom();
+        System.out.println("available ? " + r1.isAvailable());
                 Reservation res = new Reservation("king", 3, true);
                 System.out.println(res.getReservationTotal());
 
@@ -21,4 +24,4 @@ public class Main {
             }
         }
 
-    }
+

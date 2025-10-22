@@ -50,6 +50,27 @@ public class Room {
     public boolean isAvailable() {
         return !dirty && !occupied;
     }
+
+    public void checkIn() {
+        occupied = false;
+        dirty = true;
+        System.out.println("Guest checked in.");
+    }
+
+    public void checkOut() {
+        occupied = false;
+        dirty = true;
+        System.out.println("Guest checked out. Room needs cleaning.");
+    }
+
+    public void cleanRoom() {
+        occupied = false;
+        dirty = false;
+        System.out.println(" Room has been cleaned and is ready.");
+    }
 }
+
+
+
 
 
