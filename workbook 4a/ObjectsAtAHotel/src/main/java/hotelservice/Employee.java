@@ -1,5 +1,8 @@
 package hotelservice;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 public class Employee {
     private int employeeId;
     private String name;
@@ -59,7 +62,7 @@ public class Employee {
 
     // overloaded punch in
     public void punchIn(double time) {
-        if (startTime !=0) {
+        if (startTime != 0) {
             System.out.println(name + "already punched in.");
             return;
         }
@@ -67,13 +70,14 @@ public class Employee {
         System.out.println(name + "punched in at" + time);
 
     }
+
     public void punchOut(double time) {
         if (startTime == 0) {
             System.out.println(name + "hasn't punched in.");
             return;
         }
-    double workedHours = time - startTime;
-        if(workedHours < 0) {
+        double workedHours = time - startTime;
+        if (workedHours < 0) {
             System.out.println("Invalid time. Punch out cannot be earlier than punch in.");
             return;
         }
@@ -85,11 +89,11 @@ public class Employee {
 
     // derived getters
     public double getRegularHours() {
-        return  Math.min(hoursWorked, 40.0);
+        return Math.min(hoursWorked, 40.0);
     }
 
     public double getOvertimeHours() {
-        return  Math.max(hoursWorked - 40.0, 0.0);
+        return Math.max(hoursWorked - 40.0, 0.0);
     }
 
     public double getTotalPay() {
@@ -97,6 +101,7 @@ public class Employee {
         double overtimePay = getOvertimeHours() * payRate * 1.5;
         return regularPay + overtimePay;
     }
+
     public void showSummary() {
         System.out.println("\n--- Employee Summary ---");
         System.out.println("Employee: " + name);
@@ -109,4 +114,16 @@ public class Employee {
 
     }
 
+    public void punchIn() {
+        LocalDateTime now = LocalDateTime.now();
+        double currentTime = now.getHour() + (now.getMinute() / 60.0);
+        punchIn(currentTime); // calls existing punchIn(double)
+    }
+
+    public void punchOut() {
+        LocalDateTime now = LocalDateTime.now();
+        double currentTime = now.getHour() + (now.getMinute() / 60.0);
+        punchOut(currentTime);
+    }
 }
+
