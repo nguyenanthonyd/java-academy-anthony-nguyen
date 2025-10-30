@@ -5,7 +5,7 @@ public class  Moped extends Vehicle{
     public String drive() {
         System.out.println("Driving on 4 wheels...");
         return "Car is driving with speed!";
-    }//
+    }
 
     @Override
     public void refuel() {
