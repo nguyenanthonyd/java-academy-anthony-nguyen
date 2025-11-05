@@ -1,4 +1,20 @@
 package com.pluralsight;
 
-public class BankAccount {
+public class BankAccount implements Valuable {
+    private double balance;
+
+    public BankAccount(double balance) {
+        this.balance = balance; // Constructor
+    }
+    public void deposit (double amount) {
+        balance += amount;
+    }
+    public void withdraw (double amount) {
+        balance -= amount;
+    }
+    @Override
+    public double getValue() {
+        return balance;
+
+}
 }
