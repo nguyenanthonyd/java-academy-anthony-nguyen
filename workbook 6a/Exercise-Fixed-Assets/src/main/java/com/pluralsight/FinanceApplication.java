@@ -19,4 +19,5 @@ public class FinanceApplication {
         System.out.println("Account 1 value:" + account1.getValue());
         System.out.println("Account 2 value:" + account2.getValue());
     }
-}// revert commit test
+}// revert commit test let
+try bug here
