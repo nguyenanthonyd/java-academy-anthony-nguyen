@@ -1,7 +1,15 @@
-package com.pluralsight;
+package com.pluralsight.finance;
 
 public class BankAccount implements Valuable {
+    private int accountNumber;
+    private String name;
     private double balance;
+
+    public BankAccount(int accountNumber, String name, double balance) {
+        this.accountNumber = accountNumber;
+        this.name = name;
+        this.balance = balance;
+    }
 
     public BankAccount(double balance) {
         this.balance = balance; // Constructor
