@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fe4e6e4-5254-4879-8a5d-5182bce56ce3" name="Changes" comment="NorthwindTraders Exercise pt.1">
+      <change afterPath="$PROJECT_DIR$/../../02_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AcademyCrimeApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/CarInventory/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workBook-2b/Palindromes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-1-SandwichShop/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/src/main/java/com/pluralsight/Format.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/src/main/java/com/pluralsight/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-CalculatorsWithMethods/src/main/java/com/pluralsight/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Ex-RentalCarCompany/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt1/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-2-pt3/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt2/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt3/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt4/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt5/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt6/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt7/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3-pt8/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-3pt1/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-4-PayrollCalculator/src/main/java/com/pluralsight/PayrollCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/Exercise-BasicCalculator/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/demo-9-26/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/demo-9-26/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1d/demo-9-26/target/classes/com/pluralsight/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-1w/WorkShop-FinancialCalculators/src/main/java/com/pluralsight/FinancialCalculators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/AddressBuiler/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/CellPhoneService/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/src/main/java/com/pluralsight/FullNameParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/FullNameGenerator/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/HighScoreWins/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/Looping/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/Looping/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/Looping/target/classes/com/pluralsight/DoWhileLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/Looping/target/classes/com/pluralsight/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/Looping/target/generated-sources/annotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/src/main/java/com/pluralsight/DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/src/main/java/com/pluralsight/ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/LoopingExercise/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/RollTheDice/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TestStatistics/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/TheaterReservations/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-2a/VehicleInventory/src/main/java/com/pluralsight/VehicleInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/src/main/java/com/pluralsight/BedtimeStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/stories/goldilocks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/stories/hansel_and_gretel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/BedtimeStories/stories/mary_had_a_little_lamb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/FamousQuotes/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/package com.pluralsight;" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/payroll-sept-2023.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/payroll-sept-2023.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/src/main/java/com/pluralsight/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/src/main/java/com/pluralsight/EmployeeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/src/main/java/com/pluralsight/PayRollCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-3a/PayrollCalculator/src/main/java/com/pluralsight/PayRollFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/FrontDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/ObjectsAtAHotel/src/main/java/hotelservice/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-4a/OrganizingHospitalSystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/src/main/java/com/pluralsight/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/src/main/java/com/pluralsight/Moped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/src/main/java/com/pluralsight/SemiTruck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-5a/Exercise-Diagrams/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/finance/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/finance/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/finance/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/finance/Valuable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/Exercise-Portfolio/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.idea/artifacts/untitled_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/out/artifacts/untitled_jar/untitled.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6a/untitled/src/main/java/com/pluralsight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.idea/artifacts/DemoJar_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/out/artifacts/DemoJar_jar/DemoJar.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-6c/DemoJar/src/main/java/com/pluralsight/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-7a/02_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-7a/03_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-7a/04_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-7a/06_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workbook-7a/07_product_list.sql..sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PropertyManager2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/02_get_vehicles_for_dealership.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/04_find_dealership_by_vin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/05_find_dealerships_by_car_type.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/06_get_sales_for_dealer_date_range.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/CarDealershipTablesAndData/dealerships.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/CarDealershipTablesAndData/insert_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/CarDealershipTablesAndData/sales_contracts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workshop7w-dealership-database/CarDealershipTablesAndData/vehicles.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="36MD0OpPApBrbm07E7S4opPLS5a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/pluralsight/java-academy-anthony-nguyen/workbook-8/NorthwindTraders/src/main/java/com/pluralsight/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fe4e6e4-5254-4879-8a5d-5182bce56ce3" name="Changes" comment="" />
+      <created>1764807323604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764807323604</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NorthwindTraders Exercise pt.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="NorthwindTraders Exercise pt.1" />
+  </component>
+</project>
