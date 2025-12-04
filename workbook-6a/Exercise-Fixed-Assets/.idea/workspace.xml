@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d700d0fd-03c2-4ff9-bd2e-9ca6254761bc" name="Changes" comment="tested revert commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/FinanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/FinanceApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="351mwN5vOIxL9QJ0pFWHG41ingO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FinanceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/pluralsight/java-academy-anthony-nguyen/workbook 6a/Exercise-Fixed-Assets/src/main/java/com/pluralsight/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pluralsight" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d700d0fd-03c2-4ff9-bd2e-9ca6254761bc" name="Changes" comment="" />
+      <created>1762286190397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762286190397</updated>
+    </task>
+    <task id="LOCAL-00001" summary="classes">
+      <option name="closed" value="true" />
+      <created>1762292847532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762292847532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Portfolio class polymorphism">
+      <option name="closed" value="true" />
+      <created>1762384148215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762384148215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="moved classes to finance package">
+      <option name="closed" value="true" />
+      <created>1762410896926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762410896926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="moved classes to finance package">
+      <option name="closed" value="true" />
+      <created>1762411079512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762411079512</updated>
+    </task>
+    <task id="LOCAL-00005" summary="moved classes to finance package">
+      <option name="closed" value="true" />
+      <created>1762453793923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762453793924</updated>
+    </task>
+    <task id="LOCAL-00006" summary="tested revert commit">
+      <option name="closed" value="true" />
+      <created>1762453836361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762453836361</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="classes" />
+    <MESSAGE value="Portfolio class polymorphism" />
+    <MESSAGE value="moved classes to finance package" />
+    <MESSAGE value="tested revert commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested revert commit" />
+  </component>
+</project>
